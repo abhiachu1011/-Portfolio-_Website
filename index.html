@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/css/theme.css"> <!-- Additional CSS -->
+    <script src="https://kit.fontawesome.com/YOUR-FONTAWESOME-KIT.js" crossorigin="anonymous"></script> <!-- FontAwesome -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="assets/images/profile.jpg" alt="My Profile Picture" width="200">
+        <p>Hello! I'm a web developer passionate about building modern web applications.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of project 1.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of project 2.</p>
+        </div>
+
+        <!-- Video Project -->
+        <div class="project">
+            <h3>My Video Project</h3>
+            <video controls width="400">
+                <source src="assets/videos/intro.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+
+        <!-- GitHub Icon -->
+        <p>Follow me on GitHub:</p>
+        <img src="assets/icons/github.svg" alt="GitHub" width="30">
+
+        <!-- FontAwesome GitHub Icon -->
+        <p>Or find me on:</p>
+        <i class="fa fa-github fa-2x"></i>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="assets/js/script.js"></script> <!-- Additional JavaScript -->
+</body>
+</html>
